@@ -27,7 +27,7 @@ class _SpeechScreenState extends State<SpeechScreen> {
           telephony.sendSms(
               to: recipients[0],
               message:
-                  "Help Help Help!!, My Location is : http://www.google.com/maps/place/${locationController.currentPosition.value.latitude},${locationController.currentPosition.value.longitude}");
+                  "Help Help Hep Help!!, My Location is : http://www.google.com/maps/place/${locationController.currentPosition.value.latitude},${locationController.currentPosition.value.longitude}");
         }),
         textStyle: const TextStyle(
           fontWeight: FontWeight.bold,
